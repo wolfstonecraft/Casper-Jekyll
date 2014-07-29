@@ -17,7 +17,7 @@
         <header class="post-header">
             <h1 class="post-title">{{{title}}}</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}} 
+                <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
             </section>
         </header>
 
@@ -28,11 +28,11 @@
         <footer class="post-footer">
             {{#if author.image}}
             <figure class="author-image">
-                <A class="img" href="{{@blog.url}}/author/{{author.slug}}" style="background-image: url({{author.image}})"><span class="hidden">{{author.name}}'s Picture</span></a>
+                <A class="img" href="{{@blog.url}}" style="background-image: url({{author.image}})"><span class="hidden">{{author.name}}'s Picture</span></a>
             </figure>
             {{/if}}
             <section class="author">
-                <h4><a href="{{@blog.url}}/author/{{author.slug}}">{{author.name}}</a></h4>
+                <h4>{{author.name}}</h4>
                 {{#if author.bio}}
                     <p>{{author.bio}}</p>
                 {{else}}
