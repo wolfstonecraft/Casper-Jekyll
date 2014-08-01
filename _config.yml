@@ -1,0 +1,20 @@
+# Site settings
+title: Your awesome title
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+baseurl: ""
+url: "http://yourdomain.com"
+#logo:
+#cover:
+author:
+  name: Author's name
+  image: //www.gravatar.com/avatar/ca839bc293e4ca6f9fa327cf95a414a9
+  bio: Some bio about this author. It can be long but probably shouldn't be too long. You can include <a href="google.com">html here</a>.
+  location: Earth
+  website: http://ghost.org
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+paginate: 5
+paginate_path: page/:num

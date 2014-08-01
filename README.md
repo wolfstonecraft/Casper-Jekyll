@@ -1,6 +1,6 @@
 # Casper
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+The default theme for [Ghost](http://github.com/tryghost/ghost/) ported to [Jekyll](http://jekyllrb.com/).
 
 ## Copyright & License
 

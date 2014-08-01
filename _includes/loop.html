@@ -1,0 +1,25 @@
+{% for post in paginator.posts %}
+<article class="post">
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>{{ post.excerpt }} <a class="read-more" href="{{post.url}}">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        {% if site.author.image %}<img class="author-thumb" src="{{site.author.image}}" alt="Author image" nopin="nopin" />{% endif %}
+        {{site.author.name}}
+        <time class="post-date" datetime="{{post.date | date: '%b %-d, %Y'}}">{{ post.date | date: "%b %-d, %Y"}}</time>
+    </footer>
+</article>
+{% endfor %}
+
+<nav class="pagination" role="navigation">
+  {% if paginator.previous_page %}
+    <a href="/page/{{ paginator.previous_page }}" class="newer-posts">&larr; Newer Posts</a>
+  {% endif %}
+  <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="/page/{{ paginator.next_page }}" class="older-posts">Older Posts &rarr;</a>
+  {% endif %}
+</nav>
