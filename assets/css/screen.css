@@ -709,6 +709,7 @@ margin on the iframe, cause it breaks stuff. */
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
+    text-align: justify;   
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -858,9 +859,6 @@ body:not(.post-template) .post-title {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
-}
-.post-content p {
-    text-align: justify;
 }
 
 /* Kill that stylish little circle that was on the border, too */
