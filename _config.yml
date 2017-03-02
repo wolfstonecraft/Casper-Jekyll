@@ -1,7 +1,7 @@
 # Site settings
 title: George Wolfstonecraft
 email: gwolfstonecraft@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Una obra de intriga literaria"
 baseurl: ""
 url: "https://wolfstonecraft.github.io"
 #logo:
@@ -9,9 +9,9 @@ url: "https://wolfstonecraft.github.io"
 author:
   name: George Wolfstonecraft
   image: //gravatar.com/userimage/117340007/051ec8d47b4370548966b39c5365b89b.jpg
-  bio: Some bio about this author. It can be long but probably shouldn't be too long. You can include <a href="google.com">html here</a>.
-  location: Earth
-  website: https://wolfstonecraft.github.io
+  bio: 
+  #location: Earth
+  #website: https://wolfstonecraft.github.io
 
 # Build settings
 markdown: kramdown
