@@ -1,5 +1,4 @@
 ---
-published: false
 title: Lorem ipsum dolor sit amet
 ---
 Curabitur fermentum mollis nunc, ut facilisis massa mollis et. Curabitur iaculis eu orci non tempus. Donec non dolor interdum, mollis lorem eget, malesuada dolor. Vestibulum congue lectus augue, sit amet viverra felis tincidunt nec. Phasellus congue felis et lorem maximus, vitae volutpat elit laoreet. Nullam rutrum vulputate tortor at vehicula. Etiam sodales nulla id faucibus suscipit. Mauris sit amet tincidunt nunc. Integer finibus ultrices dignissim. Nulla non lacus convallis, lobortis orci sodales, feugiat augue. Nulla ac sem sed mauris scelerisque semper. Vestibulum molestie libero eros, commodo tempus felis eleifend rhoncus.
