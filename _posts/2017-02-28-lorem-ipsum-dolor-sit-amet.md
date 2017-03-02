@@ -1,6 +1,7 @@
 ---
 title: Lorem ipsum dolor sit amet
 date:  2017-02-28 18:47:11
+tags: fiction
 categories: fiction
 cover: assets/images/cover.jpg
 ---
