@@ -4,8 +4,8 @@ email: gwolfstonecraft@domain.com
 description: "Una obra de intriga literaria"
 baseurl: ""
 url: "https://wolfstonecraft.github.io"
-logo: https://titivillusgalensis.github.io/assets/images/ghost.png
-cover: https://titivillusgalensis.github.io/assets/images/cover1.jpg
+logo: assets/images/ghost.png
+cover: assets/images/cover.jpg
 author:
   name: George Wolfstonecraft
   image: //gravatar.com/userimage/117340007/051ec8d47b4370548966b39c5365b89b.jpg
