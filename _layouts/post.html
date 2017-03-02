@@ -3,8 +3,8 @@ layout: default
 ---
 
 <nav class="main-nav clearfix">
-    <a class="back-button icon-arrow-left" href="{{site.baseurl}}/">Home</a>
-    <a class="subscribe-button icon-feed" href="{{ "/feed.xml" | prepend: site.baseurl }}">Subscribe</a>
+    <a class="back-button icon-arrow-left" href="{{site.baseurl}}/">Inicio</a>
+    <a class="subscribe-button icon-feed" href="{{ "/feed.xml" | prepend: site.baseurl }}">Suscribirse</a>
 </nav>
 
 <main class="content" role="main">
@@ -28,17 +28,20 @@ layout: default
                 <A class="img" href="{{site.baseurl}}" style="background-image: url({{site.author.image}})"><span class="hidden">{{site.author.name}}'s Picture</span></a>
             </figure>
             {% endif %}
+            {% if site.author.bio %}
             <section class="author">
                 <h4>{{site.author.name}}</h4>
-                {% if site.author.bio %}
+                {% comment %} if site.author.bio {% endcomment %}
                     <p>{{site.author.bio}}</p>
-                {% endif %}
+                {% comment %} endif {% endcomment %}
                 <div class="author-meta">
                     {%if site.author.location %}<span class="author-location"><i class="icon-location"></i> {{site.author.location}}</span>{% endif %}
                     {% if site.author.website %}<span class="author-link"><i class="icon-link"></i> <a href="{{site.author.website}}">{{site.author.website}}</a></span>{% endif %}
                 </div>
             </section>
+            {% endif %}
 
+            {% if site.share %}
             <section class="share">
                 <h4>Share this post</h4>
                 <a class="icon-twitter" href="https://twitter.com/share?text={{page.title | url_param_escape}}&amp;url={{ page.url | prepend: site.baseurl }}"
@@ -54,6 +57,7 @@ layout: default
                     <span class="hidden">Google+</span>
                 </a>
             </section>
+            {% endif %}
 
         </footer>
     </article>
