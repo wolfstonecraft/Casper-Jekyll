@@ -858,6 +858,7 @@ body:not(.post-template) .post-title {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
+    text-align: justify;
 }
 
 /* Kill that stylish little circle that was on the border, too */
