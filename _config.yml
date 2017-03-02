@@ -18,10 +18,10 @@ share: false
 collections:
   my_categories:
     output: true
-    permalink: /category/:name/
+    permalink: /blog/category/:name/
   my_tags:
     output: true
-    permalink: /tag/:name/
+    permalink: /blog/tag/:name/
 
 # Build settings
 markdown: kramdown
