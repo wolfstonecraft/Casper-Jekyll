@@ -1,1 +1,4 @@
 ---
+slug: fiction
+name: Fiction
+---
