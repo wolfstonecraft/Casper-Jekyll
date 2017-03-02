@@ -12,6 +12,7 @@ author:
   bio: 
   #location: Earth
   #website: https://wolfstonecraft.github.io
+share: false
 
 # Build settings
 markdown: kramdown
