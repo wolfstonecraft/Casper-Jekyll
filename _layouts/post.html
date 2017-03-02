@@ -28,16 +28,18 @@ layout: default
                 <A class="img" href="{{site.baseurl}}" style="background-image: url({{site.author.image}})"><span class="hidden">{{site.author.name}}'s Picture</span></a>
             </figure>
             {% endif %}
+            {% if site.author.bio %}
             <section class="author">
                 <h4>{{site.author.name}}</h4>
-                {% if site.author.bio %}
+                {% comment %} if site.author.bio {% endcomment %}
                     <p>{{site.author.bio}}</p>
-                {% endif %}
+                {% comment %} endif {% endcomment %}
                 <div class="author-meta">
                     {%if site.author.location %}<span class="author-location"><i class="icon-location"></i> {{site.author.location}}</span>{% endif %}
                     {% if site.author.website %}<span class="author-link"><i class="icon-link"></i> <a href="{{site.author.website}}">{{site.author.website}}</a></span>{% endif %}
                 </div>
             </section>
+            {% endif %}
 
             {% if site.share %}
             <section class="share">
