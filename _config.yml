@@ -16,7 +16,10 @@ subscribe: false
 share: false
 
 collections:
-  tags:
+  my_categories:
+    output: true
+    permalink: /category/:name/
+  my_tags:
     output: true
     permalink: /tag/:name/
 
