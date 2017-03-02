@@ -15,6 +15,11 @@ author:
 subscribe: false  
 share: false
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/:name/
+
 # Build settings
 markdown: kramdown
 permalink: /:title
