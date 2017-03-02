@@ -14,6 +14,7 @@ author:
   #website: https://wolfstonecraft.github.io
 subscribe: false  
 share: false
+timezone: Europe/Madrid
 
 collections:
   my_categories:
