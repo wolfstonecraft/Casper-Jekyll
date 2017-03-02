@@ -18,7 +18,7 @@ share: false
 collections:
   tags:
     output: true
-    permalink: /tags/:name/
+    permalink: /tag/:name/
 
 # Build settings
 markdown: kramdown
