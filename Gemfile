@@ -1,5 +1,4 @@
-# A sample Gemfile
 source "https://rubygems.org"
+gemspec
 
-# gem "rails"
-gem 'jekyll', '~> 2.2.0'
+# gem 'jekyll', '~> 2.2.0'
