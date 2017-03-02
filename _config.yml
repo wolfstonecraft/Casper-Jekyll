@@ -9,7 +9,7 @@ url: "https://wolfstonecraft.github.io"
 author:
   name: George Wolfstonecraft
   image: //gravatar.com/userimage/117340007/051ec8d47b4370548966b39c5365b89b.jpg
-  bio: 
+  bio: false
   #location: Earth
   #website: https://wolfstonecraft.github.io
 share: false
