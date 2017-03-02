@@ -8,7 +8,7 @@ layout: default
 </nav>
 -->
 {% comment %} The big featured header {% endcomment %}
-<header class="main-header {% if site.cover %}" style="background-image: url({{site.cover}}){% else %}no-cover{% endif %}">
+<header class="main-header post-head {% if site.cover %}" style="background-image: url({{site.cover}}){% else %}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
         {% if site.logo %}<a class="blog-logo" href="{{site.baseurl}}"><img src="{{site.logo}}" alt="Logo" /></a>{% endif %}
         {% if site.subscribe %}<a class="subscribe-button icon-feed" href="{{ "/feed.xml" | prepend: site.baseurl }}">Suscribirse</a>{% endif %}
